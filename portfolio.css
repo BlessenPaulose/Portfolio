@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: sticky;
+    top: 0%;
+    padding: 2rem 15%;
+    background-color: white;
+   
+}
+.logo{
+    font-size: 45px;
+    font-weight: 70;
+    font-family:italic;
+}
+.logoclr{
+    color:rgb(166, 41, 223);
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 6rem;
+    right: 10%;
+    color:rgb(166, 41, 223);
+    font-size: 18px;
+    font-weight: 500;
+}
+#id:hover{
+    color:black;
+}
+/* Home section */
+#home{
+    display: flex;
+    overflow-x: hidden;
+}
+.title{
+    margin: 200px 200px;
+}
+#h1{
+    font-size: 50px;
+}
+.spann{
+    color:rgb(166, 41, 223);
+}
+.span{
+    font-size: 20px;
+    font-weight:50;
+}
+.title p{
+    font-family: italic;
+    padding: 15px;
+    color:rgb(166, 41, 223);
+}
+
+.imggrp img{
+    width: 150%;
+    margin-top: 90px;
+}
+/* About section */
+
+#about h1{
+    font-size: 65px;
+    font-weight: 400;
+    color:rgb(166, 41, 223);
+    text-shadow: 3px 1px 9px rgb(166, 41, 223);
+    padding-left: 100px;
+    margin-top: 100px;
+}
+.headerr{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 950px;
+    font-family: italic;
+}
+#button{
+ align-items: center;
+ margin-top: 40px;
+ margin-left: 130px;
+}
+#button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(166, 41, 223);
+    border-color: rgb(166, 41, 223);
+    box-shadow: -1px 1px 5px white,2px 3px 5px black;
+}
+#button:hover{
+    background-color:black;
+    border-color: black;
+    color:rgb(166, 41, 223);
+    box-shadow: 2px 3px 5px rgb(166, 41, 223);
+}
+#about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.headerr li{
+    list-style: none;
+    margin-top: 40px;
+}
+/* skill section */
+#skills{
+    padding-bottom: 50px;
+}
+.skillcontr{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#skills h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 400;
+    color:rgb(166, 41, 223);
+    text-shadow: 3px 1px 9px rgb(166, 41, 223);
+}
+h3{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.tech{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 80px;
+    /* box-shadow: 2px 3px 5px rgb(166, 41, 223); */
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+}
+#img{
+    font-size: 80px;
+}
+#imgg{
+    width: 80px;
+}
+
+
+.tech span {
+    margin-bottom: 1rem ;
+    padding-right: 10px;
+    font-size: 16px; 
+    text-align: center;
+}
+.tech:hover{
+    /* box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 2px 3px 5px rgb(166, 41, 223);
+}
+/* footer section */
+#contact{
+    padding-top: 10px;
+    background-color: rgb(166, 41, 223);
+    height: 100%;
+}
+#contact h1{
+    text-shadow: 3px 1px 9px rgb(247, 242, 249);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    margin: 0px 15px;
+}
+.icon i{
+    color: black;
+    font-size: 20px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom,rgb(115, 108, 118),white);
+}
